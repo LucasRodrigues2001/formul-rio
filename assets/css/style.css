@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+section {
+    display: flex;
+
+    & .img {
+        width: 687px;
+        height: 1031px;
+    }
+
+    & .container {
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+        gap: 25px;
+
+        width: 504px;
+        height: 617px;
+        border-radius: 10px;
+
+
+
+        & h2 {
+            font-family: Poppins;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 37.5px;
+
+        }
+
+        & h1 {
+
+            font-family: Poppins;
+            font-size: 31px;
+            font-weight: 500;
+            line-height: 46.5px;
+
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            gap: 25px;
+
+
+
+            & .dados-usuario {
+
+                top: 33px;
+                border-radius: 6px;
+                border: 0.6px;
+
+            }
+
+            #E-mail {
+                width: 423px;
+                height: 59px;
+            }
+
+            #Senha {
+                width: 423px;
+                height: 59px;
+            }
+
+            .lembra {
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+            #lembra-me {
+                width: 15px;
+                height: 15px;
+                border: 1px 0px 0px 0px;
+                
+
+            }
+
+            .btn button {
+                background-color: black;
+                color: #fff;
+                width: 423px;
+                height: 60px;
+                padding: 18px 18px;
+                gap: 10px;
+                border-radius: 6px;
+
+
+            }
+
+        }
+    }
+
+}
